@@ -25,9 +25,6 @@
     "bugs": {
         "url": "https://github.com/m-avagyan/is-mounted-hook/issues"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
     "license": "MIT",
     "engines": {
         "node": ">=8.0.0",
