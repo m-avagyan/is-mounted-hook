@@ -17,10 +17,10 @@
         "yarn"
     ],
     "author": "Martik Avagyan <martikavagyan1@gmail.com> (https://github.com/m-avagyan)",
-    "homepage": "https://github.com/m-avagyan/ublob#readme",
+    "homepage": "https://github.com/m-avagyan/is-mounted-hook#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/m-avagyan/ublob.git"
+        "url": "git+https://github.com/m-avagyan/is-mounted-hook.git"
     },
     "bugs": {
         "url": "https://github.com/m-avagyan/is-mounted-hook/issues"
