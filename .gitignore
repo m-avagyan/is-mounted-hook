@@ -1,7 +1,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-coverage
+
+coverage/
 node_modules/
+lib/
+
 .eslintcache
 .DS_Store
