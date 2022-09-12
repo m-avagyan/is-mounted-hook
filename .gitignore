@@ -8,4 +8,5 @@ lib/
 
 .npmrc
 .eslintcache
+.yarn-metadata.json
 .DS_Store
