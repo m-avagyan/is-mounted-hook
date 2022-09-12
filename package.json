@@ -38,8 +38,8 @@
         "src"
     ],
     "scripts": {
-        "build": "rimraf build && tsc",
-        "build:watch": "rimraf build && tsc -w",
+        "build": "rimraf lib && tsc",
+        "build:watch": "rimraf lib && tsc -w",
         "test": "jest"
     },
     "peerDependencies": {
