@@ -1,8 +1,7 @@
 {
     "name": "is-mounted-hook",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "React hook for checking if the component is mounted",
-    "main": "src/index.ts",
     "keywords": [
         "react",
         "component",
@@ -31,6 +30,8 @@
         "npm": ">=6.0.0",
         "yarn": ">=1.0.0"
     },
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "files": [
         "lib"
     ],
