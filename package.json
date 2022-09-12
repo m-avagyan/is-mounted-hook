@@ -1,6 +1,6 @@
 {
     "name": "is-mounted-hook",
-    "version": "0.0.4",
+    "version": "1.0.0",
     "description": "React hook for checking if the component is mounted",
     "keywords": [
         "react",
@@ -38,8 +38,7 @@
     "scripts": {
         "build": "rm -rf lib && tsc",
         "build:watch": "rm -rf lib && tsc -w",
-        "test": "jest",
-        "release": "yarn test && yarn build && npm publish"
+        "test": "jest"
     },
     "peerDependencies": {
         "react": "^16.8.6 || ^17",
