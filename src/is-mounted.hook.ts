@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useMemo } from 'react';
 
 function useIsMounted(): boolean {
   const isMountedRef = useRef(false);
@@ -11,7 +11,9 @@ function useIsMounted(): boolean {
     };
   }, []);
 
-  return isMountedRef.current;
+  const isMounted = useMemo(() => isMountedRef.current, [isMountedRef]);
+
+  return isMounted;
 }
 
 export default useIsMounted;
