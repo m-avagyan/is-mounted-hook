@@ -1,6 +1,10 @@
-import { useRef, useEffect, useMemo } from 'react';
+import { useRef, useEffect } from 'react';
 
-function useIsMounted(): boolean {
+type TResult = {
+  current: boolean;
+};
+
+function useIsMounted(): TResult {
   const isMountedRef = useRef(false);
 
   useEffect(() => {
@@ -11,9 +15,7 @@ function useIsMounted(): boolean {
     };
   }, []);
 
-  const isMounted = useMemo(() => isMountedRef.current, [isMountedRef]);
-
-  return isMounted;
+  return isMountedRef;
 }
 
 export default useIsMounted;
