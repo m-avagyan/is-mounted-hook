@@ -37,14 +37,14 @@ function Example() {
     getCars()
       .catch((error) => setError(error.message))
       .then((data) => {
-        if (!isMounted) {
+        if (!isMounted.current) {
           return;
         }
 
         setData(data);
       })
       .finally(() => setIsLoading(false));
-  }, [isMounted]);
+  }, []);
 
   return isLoading ? (
     <Loader />
